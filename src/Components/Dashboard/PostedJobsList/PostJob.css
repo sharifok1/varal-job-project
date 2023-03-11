@@ -1,0 +1,23 @@
+.post-job-status{
+    color:rgba(64, 194, 3, 1);
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.view-posted-job{
+    padding: 8px 10px;
+    background-color:rgba(7, 47, 87, 1) ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.promote-posted-job{
+    padding: 7px 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+    color: #000;
+}

@@ -3,6 +3,7 @@ import "./ProfileDropdown.css";
 
 import userProfile from '../../../asset/user-profile.svg'
 import settingsIcon from '../../../asset/setting-icon.svg'
+import { NavLink } from "react-router-dom";
 
 
 export default function ProfileDropdown({onSelect}) {
@@ -53,7 +54,7 @@ export default function ProfileDropdown({onSelect}) {
               <a href="#"><i class="fa-regular fa-circle-user"></i>My Profile</a>
             </li>
             <li>
-              <a href="#"><i class="fa-regular fa-heart"></i>Saved Jobs</a>
+              <NavLink to='/postedJobsList'><i class="fa-regular fa-heart"></i>Saved Jobs</NavLink>
             </li>
             <li>
               <a href="#"><i class="fa-regular fa-comment-dots"></i>Reviews</a>
