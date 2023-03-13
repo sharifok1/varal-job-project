@@ -19,6 +19,9 @@ import Proposal from './Components/Proposal/Proposal';
 import ProfilePage from './Components/ProfilePage/ProfilePage';
 import Dashboard from './Components/Dashboard/Dashboard';
 import PostedJobsList from './Components/Dashboard/PostedJobsList/PostedJobsList';
+import DeatailsJobsPostOne from './Components/Dashboard/DeatailsJobsPostOne/DeatailsJobsPostOne';
+import DetailsJobsPostTwo from './Components/Dashboard/DeatailsJobsPostTwo/DetailsJobsPostTwo';
+import DeatailsJobsPostThree from './Components/Dashboard/DeatailsJobsPostThree/DeatailsJobsPostThree';
 
 function App() {
   return (
@@ -41,6 +44,9 @@ function App() {
         <Route path='/profile' element={<ProfilePage/>}/>
         <Route path='/dashboard' element={<Dashboard/>} />
         <Route path='/postedJobsList' element={<PostedJobsList/>} />
+        <Route path='/deatailsJobsPostOne' element={<DeatailsJobsPostOne/>} />
+        <Route path='/detailsJobsPostTwo' element={<DetailsJobsPostTwo/>} />
+        <Route path='/detailsJobsPostThree' element={<DeatailsJobsPostThree/>} />
       </Routes>
    {/* <Footer/> */}
     </div>
