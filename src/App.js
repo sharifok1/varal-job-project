@@ -22,6 +22,10 @@ import PostedJobsList from './Components/Dashboard/PostedJobsList/PostedJobsList
 import DeatailsJobsPostOne from './Components/Dashboard/DeatailsJobsPostOne/DeatailsJobsPostOne';
 import DetailsJobsPostTwo from './Components/Dashboard/DeatailsJobsPostTwo/DetailsJobsPostTwo';
 import DeatailsJobsPostThree from './Components/Dashboard/DeatailsJobsPostThree/DeatailsJobsPostThree';
+import PostJobOne from './Components/Dashboard/PostJobOne/PostJobOne';
+import PostJobTow from './Components/Dashboard/PostJobTwo/PostJobTow';
+import PostJobThree from './Components/Dashboard/PostJobThree/PostJobThree';
+import TramsAndCondition from './Components/TramsAndCondition/TramsAndCondition';
 
 function App() {
   return (
@@ -38,6 +42,7 @@ function App() {
         <Route path="/joblisting" element={<Joblisting/>} />
         <Route path="/jobsCard" element={<JobsCard/>} />
         <Route path="/dataPrivacy" element={<DataPrivacy/>} />
+        <Route path="/tramsAndCondition" element={<TramsAndCondition/>} />
         <Route path="/transaction-history" element={<TransactionHistory/>} />
         <Route path="/notifications" element={<Notifications/>} />
         <Route path="/proposal" element={<Proposal/>} />
@@ -47,6 +52,9 @@ function App() {
         <Route path='/deatailsJobsPostOne' element={<DeatailsJobsPostOne/>} />
         <Route path='/detailsJobsPostTwo' element={<DetailsJobsPostTwo/>} />
         <Route path='/detailsJobsPostThree' element={<DeatailsJobsPostThree/>} />
+        <Route path='/postjobone' element={<PostJobOne/>}/>
+        <Route path='/postjobone/postjobtwo' element={<PostJobTow/>}/>
+        <Route path='postjobone/postjobtwo/postjobthree' element={<PostJobThree/>}/>
       </Routes>
    {/* <Footer/> */}
     </div>
